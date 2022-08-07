@@ -1,0 +1,27 @@
+login
+search
+pull
+images
+run
+rename
+ps
+inspect
+logs
+exec
+stop
+kill
+start
+restart
+rm
+rmi
+volume
+	create
+	rm
+	list
+docker-compose
+	up
+	stop
+	down
+	restart
+	
+
