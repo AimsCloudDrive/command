@@ -1,0 +1,25 @@
+login
+images
+search
+pull
+run
+ps
+logs
+inspect
+start
+exec
+attrch
+stop
+kill
+restart
+rm
+svae
+rmi
+load
+build
+volume
+	ls
+	create
+	rm
+	
+	

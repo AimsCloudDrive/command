@@ -1,0 +1,25 @@
+docker run --name=redis --restart=always -p 6379:6379 -d redis
+docker exec -it redis redis-cli
+set
+get
+met
+mget
+flushdb
+flushall
+select
+info
+key
+strlen
+hset
+hget
+setnx
+hpop
+rpop
+hsetnx
+strange
+incrybyfloat
+decryby
+ttl
+pttl
+slaveof ip port
+replecaof ip port

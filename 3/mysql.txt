@@ -1,0 +1,40 @@
+删库
+drop database if exist empdb;
+
+删除表
+drop table if exist emp
+
+删除视图
+drop view if exist view_notcomm
+
+清空表
+delete from empdb.emp;
+truncate empdb.emp;
+
+主外键
+alter empdb.emp add primary key (empno);
+alter empdb.emp add foreign  key (deptno) references empdb.dept (deptno);
+
+填数据
+insert into empdb.emp(……) values(……) ;
+ps顺序一样
+
+创没奖金的视图
+create or replace view view_notcomm as 
+select * 
+from empdb.emp
+where ifnull(comm, 0)=0;
+提交事务
+commit；
+
+回滚事务
+rollback;
+
+还原点
+savepoint a;
+
+查看数据库引擎
+show engins;
+
+执行数据库脚本文件
+source path/filename.sql
